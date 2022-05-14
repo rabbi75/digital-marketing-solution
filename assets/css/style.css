@@ -12,17 +12,22 @@ body{
     width: 100%;
     overflow: hidden;
     min-height: 40px;
+    padding-top: 8px;
 }
 .top_contact {
     padding-top: 10px!important;
 }
-.top_contact ul{
-
+.top_contact ul {
+    width: 100%;
+    height: auto;
+    margin-left: 12px;
 }
 .top_contact ul li {
-    float: left;
-    padding-left: 18px;
-    list-style: none;
+    display:inline-block;
+    *display:inline; /*IE7*/
+    *zoom:1; /*IE7*/
+    color:white;
+    margin-right:9px;
 }
 .top_contact ul li a{
     text-decoration: none;
@@ -58,89 +63,102 @@ body{
         text-align: center;
     }
     .top_contact ul {
-        margin-left: 24px;
+        margin-left: -7px;
     }
 }
 @media (max-width:425px) {
     .top_contact {
         width: 100%;
         text-align: center;
+        /*padding-bottom: 20px!important;*/
+        height: auto!important;
+    }
+    li.contact_3 {
+        display: none!important;
+    }
+    li.contact_4 {
+        display: none!important;
+    }
+    .top_contact ul {
+        margin-left: -10px!important;
+    }
+}
+
+@media (max-width: 320px){
+    .top_contact {
+        width: 100%;
+        text-align: center;
         padding-bottom: 20px!important;
+        height: auto!important;
     }
 }
 @media (max-width: 425px) {
-    li.contact_1 {
-        margin-left: -33px;
-    }
-    li.top_skype{
-        display: block;
-    }
-    li.contact_3 {
-        margin-left: -33px;
-        display: none
-    }
-    li.contact_2 {
-        margin-left: 42px;
-    }
-    li.contact_4 {
-        margin-left: 32px;
-        display: none;
-    }
-    .top_contact ul li {
-        float: left;
-        padding-left: 10px;
-        list-style: none;
-    }
+    /*li.contact_1 {*/
+    /*    margin-left: -33px;*/
+    /*}*/
+    /*li.top_skype{*/
+    /*    display: block;*/
+    /*}*/
+
+    /*li.contact_2 {*/
+    /*    margin-left: 5px;*/
+    /*}*/
+    /*.top_contact ul li {*/
+    /*    float: left;*/
+    /*    padding-left: 10px;*/
+    /*    list-style: none;*/
+    /*    !*margin-right: 25px !important;*!*/
+    /*}*/
 }
 @media (max-width: 320px) {
-    li.contact_1 {
-        margin-left: -64px;
-    }
-    li.contact_3 {
-        margin-left: -64px;
-    }
-    li.contact_2 {
-        margin-left: 5px!important;
-    }
-    li.contact_1 {
-        margin-left: -55px;
-    }
-    .top_contact ul li a {
-        text-decoration: none;
-        color: white;
-        font-size: 15px!important;
-    }
-    .top_whats_up {
-        display: inline-block;
-        padding-left: 8px!important;
-        font-weight: 500;
-        font-size: 18px;
-    }
+    /*li.contact_1 {*/
+    /*    margin-left: -64px;*/
+    /*}*/
+    /*li.contact_3 {*/
+    /*    margin-left: -64px;*/
+    /*}*/
+    /*li.contact_2 {*/
+    /*    margin-left: 5px!important;*/
+    /*}*/
+    /*li.contact_1 {*/
+    /*    margin-left: -55px;*/
+    /*}*/
+    /*.top_contact ul li a {*/
+    /*    text-decoration: none;*/
+    /*    color: white;*/
+    /*    font-size: 15px!important;*/
+    /*}*/
+    /*.top_whats_up {*/
+    /*    display: inline-block;*/
+    /*    padding-left: 8px!important;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 18px;*/
+    /*}*/
 }
 @media (max-width: 375px) {
-    li.contact_1 {
-        margin-left: -64px;
-    }
-    li.contact_3 {
-        margin-left: -64px;
-    }
-    li.contact_2 {
-        margin-left: 5px!important;
-    }
-    li.contact_1 {
-        margin-left: -55px;
-    }
-    .top_contact ul li a {
-        text-decoration: none;
-        color: white;
-        font-size: 15px!important;
-    }
-    .top_whats_up {
-        display: inline-block;
-        padding-left: 8px!important;
-        font-weight: 500;
-        font-size: 18px;
-    }
+    /*li.contact_1 {*/
+    /*    margin-left: -64px;*/
+    /*}*/
+    /*li.contact_3 {*/
+    /*    margin-left: -64px;*/
+    /*}*/
+    /*li.contact_2 {*/
+    /*    margin-left: 5px!important;*/
+    /*}*/
+    /*li.contact_1 {*/
+    /*    margin-left: -55px;*/
+    /*}*/
+    /*.top_contact ul li a {*/
+    /*    text-decoration: none;*/
+    /*    color: white;*/
+    /*    font-size: 15px!important;*/
+    /*}*/
+    /*.top_whats_up {*/
+    /*    display: inline-block;*/
+    /*    padding-left: 8px!important;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 18px;*/
+    /*}*/
 }
 
 
