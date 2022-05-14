@@ -262,6 +262,14 @@ body{
         font-size: 18px;
     }
 }
+.navbar-nav .dropdown-menu {
+    position: static;
+    background-color: #1088C1;
+}
+.dropdown-menu.show {
+    display: block;
+    background-color: #1088C1;
+}
 /*nav end*/
 
 /* First Section */
