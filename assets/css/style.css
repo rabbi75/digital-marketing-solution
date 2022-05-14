@@ -330,13 +330,22 @@ body{
     }
 }
 @media(max-width: 492px) {
-    .heading_section_heading{
-        font-size: 32px;
+    .heading_section_heading {
+        font-size: 30px;
     }
-    .getQuote{
-        margin-top: 40px;
-        height: 50px;
-        width: 180px;
+    /*.getQuote{*/
+    /*    margin-top: 35px;*/
+    /*    height: 50px;*/
+    /*    width: 180px;*/
+    /*}*/
+    .getQuote {
+        background-color: #345A8B;
+        color: #ffffff;
+        height: 60px;
+        width: 200px;
+        /* margin-top: 70px; */
+        margin-bottom: 45px;
+        line-height: 42px;
     }
 }
 @media (max-width: 425px) {
@@ -419,6 +428,8 @@ body{
         color: white;
         padding-top: 30px;
         padding-bottom: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media (max-width: 1024px) {
@@ -1144,6 +1155,28 @@ div.gallery img {
     font-size: 18px;
 }
 
+@media (max-width: 425px) {
+    .social_media {
+        background-color: #1C202B;
+        padding: 30px 10px;
+    }
+    .flex-container .content {
+        background-color: transparent;
+        width: 33.333%;
+        height: 100%;
+        margin: 0px;
+        text-align: center;
+        font-size: 80px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .social_icon i {
+        font-size: 100%;
+        color: #ffffff;
+        transition: .3s;
+    }
+}
+
 /* Social Media */
 
 /* Footer */
@@ -1244,3 +1277,61 @@ button#contact-tab{
     margin: 5px;
 }
 /*global css end*/
+
+@media (max-width: 425px) {
+    .flip-card {
+        width: 100%;
+        height: 270px;
+        perspective: 1000px;
+        padding: 0px 10px;
+    }
+    .service_index {
+        padding: 37px 10px 48px 10px;
+        background-image: url(../image/background.webp);
+        /* background-repeat: no-repeat; */
+    }
+    .web_development_button {
+        margin-top: 35px;
+    }
+    div#myTabContent {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .happy_client {
+        background-color: #629694;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .client_thinking {
+        background-color: #F8F0E3;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #dontShy {
+        background-color: #4E7287;
+        /* margin-top: 400px; */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer ul {
+        list-style: none;
+        margin-left: -6px;
+    }
+    .copywrite ul {
+        list-style: none;
+        margin-left: -20px;
+    }
+    .copywrite ul li {
+        display: inline-block;
+        padding-top: 15px;
+         padding-left: 0px;
+        padding-right: 15px;
+    }
+    iframe.ops_video {
+        border: 2px solid white;
+        width: 100%;
+        height: 220px;
+    }
+}
