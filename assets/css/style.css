@@ -85,6 +85,11 @@ body{
 }
 
 @media (max-width: 320px){
+    .top_contact ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 17px!important;
+    }
     .top_contact {
         width: 100%;
         text-align: center;
@@ -92,6 +97,7 @@ body{
         /* height: auto!important; */
         max-height: 70px;
     }
+
 }
 @media (max-width: 425px) {
     /*li.contact_1 {*/
